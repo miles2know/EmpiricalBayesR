@@ -111,7 +111,7 @@ EbPropEstor = function(success, trials){
   est = BetaBinoMLE(success, trials)$estimate
   a = est[1]
   b = est[2]
-  proportoin = (a + success)/(a + b + trials)
+  proportion = (a + success)/(a + b + trials)
   return(proportion)  
   
 }
